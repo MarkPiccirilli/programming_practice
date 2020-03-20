@@ -1,0 +1,40 @@
+java notes
+
+java static notes
+
+A static member exists for all instantiations of the class
+
+A static function can be invoked without instantiation
+
+A static class is a nested class which can be invoked without instantiating the outer class
+
+
+java final notes
+
+a final variable is a constant variable.  It can only be initialized once
+
+a final method cannot be overridden
+
+a final class cannot be extended
+
+
+access specifiers
+
+private - accessable only within the class
+default - accessable only within the same package
+protected - accessable in the same package or sub class
+public - accessable from everywhere in the program
+
+classes and interfaces can only be default or public
+
+java file io
+
+read
+1. create file object with file to read from
+2. create file reader object with file object
+3. create buffer reader object with file reader object
+4. read file line by line (buffer.readLine())
+
+write
+1. create file writer object with file to write to
+2. fw.write(string)
